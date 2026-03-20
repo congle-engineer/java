@@ -6,3 +6,9 @@ build
 
 # Ignore Kotlin plugin data
 .kotlin
+
+.claude/*
+.claude/.env.*
+docs/*
+plans/*
+CLAUDE.md
