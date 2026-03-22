@@ -1,45 +1,32 @@
 # Tic-Tac-Toe Game
 
-This is a simple console-based Tic-Tac-Toe game implemented in Java.
+A clean, console-based Tic-Tac-Toe game implemented in Java.
+
+## Features
+- Two-player local gameplay.
+- Robust game state management (win/draw detection).
+- Modular architecture for maintainability.
 
 ## How to Run
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-repo/your-project.git
-    cd your-project
-    ```
-2.  **Run the application using Gradle:**
-    ```bash
-    ./gradlew run
-    ```
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd tic-tac-toe-java
+   ```
 
-## Game Description
-
-The game is played on a 3x3 board. Two players, 'X' and 'O', take turns marking the spaces in the grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
+2. **Run the application using Gradle:**
+   ```bash
+   ./gradlew run
+   ```
 
 ## Project Structure
+- `src/main/java/org/example/`: Contains the core game logic (`Board.java`, `Game.java`, `Player.java`, `Main.java`).
+- `src/test/java/org/example/`: Contains unit tests for game logic.
 
-```
-.
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── org/
-│   │   │   │       └── example/
-│   │   │   │           ├── Board.java   # Represents the game board
-│   │   │   │           ├── Game.java    # Manages game logic and flow
-│   │   │   │           ├── Main.java    # Main entry point for the application
-│   │   │   │           └── Player.java  # Represents a player in the game
-│   │   └── test/
-│   │       └── java/
-│   │           └── org/
-│   │               └── example/
-│   │                   └── BoardTest.java # Tests for the Board class
-│   └── build.gradle.kts # Gradle build script for the application
-├── gradlew               # Gradle wrapper script (Linux/macOS)
-├── gradlew.bat           # Gradle wrapper script (Windows)
-├── build.gradle.kts      # Main Gradle build script
-└── README.md             # This file
-```
+## Documentation
+Additional project documentation is available in the `./docs/` folder:
+- [Project PDR](./docs/project-overview-pdr.md)
+- [Code Standards](./docs/code-standards.md)
+- [System Architecture](./docs/system-architecture.md)
+- [Codebase Summary](./docs/codebase-summary.md)
