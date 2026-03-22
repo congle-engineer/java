@@ -12,4 +12,3 @@ plugins {
 }
 
 rootProject.name = "java"
-include("app")
