@@ -8,9 +8,6 @@ build
 .kotlin
 
 .claude/*
-.claude/.env.*
 .claude-archived/*
 docs/*
 plans/*
-CLAUDE.md
-repomix-output.xml
