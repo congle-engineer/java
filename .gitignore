@@ -9,6 +9,7 @@ build
 
 .claude/*
 .claude/.env.*
+.claude-archived/*
 docs/*
 plans/*
 CLAUDE.md
