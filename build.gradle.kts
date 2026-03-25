@@ -19,3 +19,7 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
+tasks.withType<JavaExec> {
+    standardInput = System.`in`
+}
