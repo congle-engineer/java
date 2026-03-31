@@ -11,3 +11,6 @@ build
 .claude-archived/*
 docs/*
 plans/*
+
+
+hello-world/target/*
