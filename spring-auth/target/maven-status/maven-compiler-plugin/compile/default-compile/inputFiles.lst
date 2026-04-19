@@ -1,0 +1,9 @@
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/SpringAuthApplication.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/config/SecurityConfig.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/controller/AuthController.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/controller/HomeController.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/dto/UserRegistrationDto.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/model/User.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/repository/UserRepository.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/service/CustomUserDetailsService.java
+/Users/admin/workspace/congle/java/spring-auth/src/main/java/com/example/springauth/service/UserService.java
